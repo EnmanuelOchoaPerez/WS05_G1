@@ -13,5 +13,27 @@ public class Estudiante extends PersonalAcademico{
     
     public void solicitarInscripcion(Curso curso){}
     public void realizarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){}
+
+
+    public ArrayList<Curso> getCursosEnEsperaPorAprobar() {
+        return cursosEnEsperaPorAprobar;
+    }
+
+
+    public void setCursosEnEsperaPorAprobar(ArrayList<Curso> cursosEnEsperaPorAprobar) {
+        this.cursosEnEsperaPorAprobar = cursosEnEsperaPorAprobar;
+    }
+
+
+    public ArrayList<Curso> getCursosInscrito() {
+        return cursosInscrito;
+    }
+
+
+    public void setCursosInscrito(ArrayList<Curso> cursosInscrito) {
+        this.cursosInscrito = cursosInscrito;
+    }
+
+    
     
 }

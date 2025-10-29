@@ -11,4 +11,6 @@ public class PersonalAcademico extends Usuario {
     public void solicitarAsesoramientoDelSitema(String email, String contenido){}
 
     public void comentar (Foro foro, String comentario){}
+
+    
 }

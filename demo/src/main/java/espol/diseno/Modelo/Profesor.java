@@ -14,5 +14,18 @@ public class Profesor extends PersonalAcademico{
     public void aceptarInscripcion(Curso curso, Estudiante estudiante){}
     public void crearNuevoForo(Foro foro){}
     
+    public ArrayList<Incidente> getIncidentes() {
+        return incidentes;
+    }
+    public void setIncidentes(ArrayList<Incidente> incidentes) {
+        this.incidentes = incidentes;
+    }
+    public ArrayList<Curso> getCursosAcargo() {
+        return cursosAcargo;
+    }
+    public void setCursosAcargo(ArrayList<Curso> cursosAcargo) {
+        this.cursosAcargo = cursosAcargo;
+    }
+    
 
 }
