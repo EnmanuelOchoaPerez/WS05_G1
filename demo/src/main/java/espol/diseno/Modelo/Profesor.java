@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Profesor extends PersonalAcademico{
     protected ArrayList<Incidente> incidentes = new ArrayList();
-
+    protected ArrayList<Curso> cursosAcargo = new ArrayList();
+    
     public Profesor(String apellido, String contraseña, String nombre, String usuario) {
         super(apellido, contraseña, nombre, usuario);
     } 

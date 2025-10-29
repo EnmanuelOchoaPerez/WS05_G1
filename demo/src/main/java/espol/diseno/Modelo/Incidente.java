@@ -13,7 +13,6 @@ public class Incidente {
     protected LocalDate fecha_cerrado;
     protected List log_actualizaciones; 
     private Usuario responsable;
-
     protected Profesor beneficiario;
     
 }
