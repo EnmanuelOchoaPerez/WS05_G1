@@ -1,11 +1,17 @@
 package espol.diseno.modelo;
 
+import java.util.ArrayList;
+
 public class Curso {
     private String id;
     private String nombre;
     private Boolean estado;
+    private Profesor responsable;
+    protected ArrayList<Estudiante> estudiantesEnEsperaDeInscripcion = new ArrayList();
+    protected ArrayList<Estudiante> estudiantesInscritos = new ArrayList();
     private java.util.Collection foros = new java.util.TreeSet();
     private java.util.Collection actividadesSumativas = new java.util.TreeSet();
+<<<<<<< HEAD
     
     public String getId() {
         return id;
@@ -37,4 +43,7 @@ public class Curso {
     public void setActividadesSumativas(java.util.Collection actividadesSumativas) {
         this.actividadesSumativas = actividadesSumativas;
     }
+=======
+
+>>>>>>> 9f3ecfd7ccab47ca417d59139f22e9f0911bdce4
 }
