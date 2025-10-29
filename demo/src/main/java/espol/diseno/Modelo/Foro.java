@@ -1,4 +1,4 @@
-package espol.diseno.Modelo;
+package espol.diseno.modelo;
 
 public class Foro {
     private String id;

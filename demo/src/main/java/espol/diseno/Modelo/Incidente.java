@@ -1,4 +1,4 @@
-package espol.diseno.Modelo;
+package espol.diseno.modelo;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -12,5 +12,8 @@ public class Incidente {
     protected String descripcion;
     protected LocalDate fecha_cerrado;
     protected List log_actualizaciones; 
+    private Usuario responsable;
+
+    protected Profesor beneficiario;
     
 }
